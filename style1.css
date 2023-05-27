@@ -87,7 +87,9 @@ header nav ul li:hover {
 
 
 .container1 {
+    width:100%;
     max-width: 1536px;
+    
     max-height: 746px;
     min-height: 746px;
     height: 100vh;
@@ -178,7 +180,7 @@ header nav ul li:hover {
     position: absolute;
     text-align: center;
     left: 36%;
-    top: 24%;
+    top: 26%;
     margin: auto;
     font-size: 4.375rem;
     /* margin-top:6.25rem;
@@ -216,8 +218,9 @@ header nav ul li:hover {
 /* LAUNCHPAD BOX ........................ */
 
 .happy3 {
-    width: 100%;
     max-width: 1536px;
+    width: 100%;
+    
     height: 300px;
     margin: auto;
     background: rgb(255, 255, 255);
@@ -396,8 +399,8 @@ header nav ul li:hover {
 .glass {
     height: 850px;
     min-height: 900px;
-    width: 1536px;
     max-width: 1536px;
+    width: 100%;
     margin: auto;
     background:white;
     position: relative;
@@ -512,7 +515,7 @@ header nav ul li:hover {
 .processflow {
     height: 1200px;
     min-height: 1200px;
-    width: 1536px;
+    width:100%;
     max-width: 1536px;
     margin: auto;
     background: white;
@@ -735,7 +738,7 @@ b {
     background: rgb(255, 255, 255);
     height: 1100px;
     min-height: 1100px;
-    width: 1536px;
+    width: 100%;
     max-width: 1536px;
     margin: auto;
     position: relative;
@@ -919,7 +922,7 @@ b {
 
 .carousaltailwind {
     height: 900px;
-    width:1536px;
+    width:100%;
     max-width:1536px;
     margin:auto;
     background-color: #ffffff;
@@ -1010,11 +1013,98 @@ b {
     display: none;
 }
 
+.toptextnone{
+    display:none;
+    position: absolute;
+    width: 25rem;
+    bottom: 1.25rem;
+    font-size: 17px;
+    left: 9.375rem;
+}
 
 /* carosual box ends .............  */
 
 
 
+@media (max-width:1394px){
+
+    .titler{
+        left:34%;
+    }
+
+}
+
+@media (max-width:1280px){
+
+    .titler{
+        left:32%;
+    }
+
+}
+
+@media (max-width:1220px){
+
+    .titler{
+        left:30%;
+    }
+    .toptext1{
+        display: none;
+    }
+
+    .toptextnone{
+        display: block;
+    }
+
+    .trybtn{
+        left:42%;
+    }
+
+}
+
+
+@media (max-width:1085px){
+
+    .titler{
+        left:30%;
+    }
+    .toptext1{
+        display: none;
+    }
+
+    .toptextnone{
+        display: block;
+    }
+
+    .trybtn{
+        left:42%;
+    }
+
+    .toptextnone{
+        left:41.3rem;
+        display:inline-block;
+    }
+
+}
+
+@media (max-width:1065px){
+
+    .titler{
+        left:30%;
+    }
+    .toptext1{
+        display: none;
+    }
+
+    .toptextnone{
+        display: none;
+    }
+
+    .trybtn{
+        left:42%;
+    }
+
+
+}
 
 
     
